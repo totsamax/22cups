@@ -29,9 +29,9 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="md">
-          <Collapse isOpen={this.state.isOpen} navbar>
+      <div className="container">
+        <Navbar expand="md" className="row border-bottom">
+          {/* <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
@@ -46,7 +46,7 @@ export default class Example extends React.Component {
               </UncontrolledDropdown>
             </Nav>
           </Collapse>
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler onClick={this.toggle} /> */}
           <NavbarBrand href="/" className="logo text-center">22Cusp</NavbarBrand>
         </Navbar>
       </div>
