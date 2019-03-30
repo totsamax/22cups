@@ -1,5 +1,27 @@
-.mapPanel{  
+.mapPanel {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    .show-map {
+        background-image: url('../map.png');
+        background-position: center;
+        background-size: 100%;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 7.5px;
+        width: 100%;
+        height: 100px; 
+        padding-top: 10px;
+
+        .show-map--button {
+
+            background-color: #969FAA;
+            border-radius: 2.5px;
+            width: 50px;
+            height: 5px; 
+            margin: 0 auto;
+        }
+    }
 }
-.open{
-    
-}
+
+.open {}

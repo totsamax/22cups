@@ -1,17 +1,5 @@
 import React from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem
-} from "reactstrap";
+import { Navbar, NavbarBrand } from "reactstrap";
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -47,7 +35,9 @@ export default class Example extends React.Component {
             </Nav>
           </Collapse>
           <NavbarToggler onClick={this.toggle} /> */}
-          <NavbarBrand href="/" className="logo text-center">22Cusp</NavbarBrand>
+          <NavbarBrand href="/" className="logo text-center">
+            22Cusp
+          </NavbarBrand>
         </Navbar>
       </div>
     );
