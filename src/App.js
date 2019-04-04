@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route } from "react-router-dom";
 import FirstCup from "./components/FirstCup";
 import Navbar from "./components/Navbar";
+import Registration from "./components/Registration";
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <Route path="/" component={FirstCup} />
+          <Route exact path="/reg" component={Registration} />
         </div>
       </BrowserRouter>
     );

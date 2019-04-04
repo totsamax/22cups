@@ -1,7 +1,5 @@
 .mapPanel {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+
 
     .show-map {
         background-image: url('../map.png');
@@ -10,7 +8,7 @@
         background-color: rgba(255, 255, 255, 0);
         border-radius: 7.5px;
         width: 100%;
-        height: 100px; 
+        height: 100px;
         padding-top: 10px;
 
         .show-map--button {
@@ -18,9 +16,16 @@
             background-color: #969FAA;
             border-radius: 2.5px;
             width: 50px;
-            height: 5px; 
+            height: 5px;
             margin: 0 auto;
         }
+    }
+}
+
+.closeIcon {
+    img {
+        width: 30px;
+        height: 30px;
     }
 }
 
